@@ -1,0 +1,9 @@
+
+
+/usr/bin/python3 /home/rpm/irap/flopencv-1.py &
+/usr/bin/python3 /home/rpm/irap/flopencv-0.py &
+/usr/bin/python3 /home/rpm/irap/flopencv-2.py &
+chmod a+rw /dev/ttyUSB0
+/usr/bin/python3 /home/rpm/irap/gpstest.py &
+/usr/bin/python3 /home/rpm/irap/gpsd.py &
+
